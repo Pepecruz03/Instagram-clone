@@ -12,7 +12,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-content: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 img {
@@ -27,8 +27,6 @@ img {
 
 .inicio{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }
 
 .inicio img{
@@ -59,9 +57,19 @@ main{
 
 .menu {
     display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    margin: none;
+    padding: none;
+    align-items: center;
+}
+
+.menu .foto{
+    display: flex;
+    
 }
 section{
-    width: 30%;
+    width: 15%;
 }
 
 .texto{
@@ -77,4 +85,10 @@ section{
     display: flex;
     justify-content: space-between;
     width: 50%;
+}
+
+section aside span {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
