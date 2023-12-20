@@ -27,6 +27,8 @@ img {
 
 .inicio{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .inicio img{
@@ -34,25 +36,33 @@ img {
     height: 10rem;
 }
 
-.inicio h1{
-    width: 100%;
+.inicio .titulo{
+    width: 35%;
+    display: flex;
 }
 
 .botones{
     display: flex;
-    padding: 1.4rem 1rem 0rem 1rem;
-    height: 2rem;
+    align-items: flex-start;
+    padding-top: 15px;
+
 }
 
 Aside {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    position: sticky top 0;
+    border-right: 1px solid #ccc;
+    position: sticky;
+    top:0%;
 }
 
 main{
-    width: 70%;
+    width: 85%;
 }
 
 .menu {
@@ -62,11 +72,13 @@ main{
     margin: none;
     padding: none;
     align-items: center;
+    position: sticky top 0;
+    
 }
 
 .menu .foto{
     display: flex;
-    
+        
 }
 section{
     width: 15%;
@@ -74,6 +86,7 @@ section{
 
 .texto{
     display: flex;
+    height: 55px;
 }
 
 .columna{
@@ -84,11 +97,26 @@ section{
 .segundacolumna{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
+    
+    height: 50px;
+    gap: 6px;
 }
+.segundacolumna .publi{
+    display: flex;
+    align-items: flex-end;
+}
+
 
 section aside span {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    padding-left: 5px;
+    align-items: center;
+}
+
+
+.boton {
+    background: none;
+    cursor: pointer;
+    border-radius: 18px 10px solid green;
 }
