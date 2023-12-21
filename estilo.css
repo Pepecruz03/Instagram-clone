@@ -134,7 +134,7 @@ section aside span {
 .textofila {
         display: flex;
         flex-direction: row;
-        border-top: 1px solid #ccc;
+        border-top: 1px solid #ccc ;
         height: 3rem;
         align-items: center;
         justify-content: space-evenly;
